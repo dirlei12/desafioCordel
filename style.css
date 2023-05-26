@@ -59,13 +59,28 @@ section.normal{
     background-color: rgb(255, 255, 255);
     color: black;
 }
+
 section.imagen{
-background-color: rgb(49, 49, 49);
-color: rgb(255, 255, 255);
+    background-color: rgba(49, 49, 49, 0.596);
+    color: rgb(255, 255, 255);
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.493);
+   background-attachment: fixed; 
+    }
+
+section#img01{
+    background-image: url(imagens/imagens/background001.jpg);
+    background-position: right center;
 }
+section#img02{
+    background-image: url(imagens/imagens/background002.jpg);
+    background-position: right center;
+}
+
 section.imagen > p{
     background-color: rgba(0, 0, 0, 0.836);
     width: 400px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.712);
 }
 
 
